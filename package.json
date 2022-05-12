@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/zviad-dev/recme",
+    "homepage": "http://zviad-dev.github.io/recme",
     "name": "frontend",
     "version": "0.1.0",
     "private": true,
@@ -56,7 +56,6 @@
         "eslint-plugin-jsx-a11y": "^6.5.1",
         "eslint-plugin-react": "^7.29.4",
         "eslint-plugin-react-hooks": "^4.5.0",
-        "gh-pages": "^4.0.0",
         "prettier": "2.6.2"
     }
 }
