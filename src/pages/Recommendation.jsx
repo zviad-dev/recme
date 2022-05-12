@@ -4,7 +4,6 @@ import Navbar from '../components/application/Navbar';
 import Sidebar from '../components/application/Sidebar';
 
 function Recommendation() {
-<<<<<<< HEAD
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
@@ -21,26 +20,16 @@ function Recommendation() {
     };
     const handleHellowChange = (event) => {
         setHellow(event.target.value);
-=======
-    const [text, setText] = useState('');
-
-    const handleTextChange = (event) => {
-        setText(event.target.value);
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
     };
 
     const handleSubmit = (event) => {
         event.preventDefault();
         // eslint-disable-next-line no-alert
         alert(`Вы ввели: \n 
-<<<<<<< HEAD
         name: ${name} \n 
         email: ${email} \n 
         phone: ${phone} \n 
         hellow: ${hellow} \n 
-=======
-        text: ${text} \n 
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
             Сделано для тестов`);
     };
     return (
@@ -50,7 +39,6 @@ function Recommendation() {
             <Container>
                 <Form onSubmit={handleSubmit}>
                     <Form1>Создать рекомендацию</Form1>
-<<<<<<< HEAD
                     <FormLabel htmlFor="for">Имя кандидата</FormLabel>
                     <FormInput
                         id="for"
@@ -61,14 +49,10 @@ function Recommendation() {
                         value={name}
                     />
                     <FormLabel htmlFor="for">Почта кандидата</FormLabel>
-=======
-                    <FormLabel htmlFor="for">Имя</FormLabel>
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
                     <FormInput
                         type="text"
                         name="text"
                         placeholder="Введите Имя"
-<<<<<<< HEAD
                         onChange={handleEmailChange}
                         value={email}
                     />
@@ -95,13 +79,6 @@ function Recommendation() {
                         <option value="volvo">Аналитик</option>
                     </Select>
                     <FormButton type="submit">Отправить</FormButton>
-=======
-                        onChange={handleTextChange}
-                        value={text}
-                    />
-
-                    <FormButton type="submit">Продолжить</FormButton>
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
                 </Form>
             </Container>
         </>
@@ -139,11 +116,7 @@ const Form = styled.form`
 `;
 
 const Form1 = styled.h1`
-<<<<<<< HEAD
     margin-bottom: 30px;
-=======
-    margin-bottom: 40px;
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
     color: ${({ theme }) => theme.colors.secondary};
     font-size: 24px;
     font-weight: 400;
@@ -158,7 +131,6 @@ const FormLabel = styled.label`
 
 const FormInput = styled.input`
     padding: 16px 16px;
-<<<<<<< HEAD
     margin-bottom: 20px;
     border: none;
     border-radius: 4px;
@@ -167,9 +139,6 @@ const FormInput = styled.input`
 const Select = styled.select`
     padding: 16px 16px;
     margin-bottom: 20px;
-=======
-    margin-bottom: 32px;
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
     border: none;
     border-radius: 4px;
 `;

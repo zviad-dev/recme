@@ -57,7 +57,7 @@ const TABLE_DATA = [
         questionary: 'Фронт',
         email: 'dasda@mail.ru',
         date: '2022-05-10 09:47:59',
-        status: 'PENDING'
+        status: 'CLOSED'
     },
     {
         id: 1143155,
@@ -67,7 +67,7 @@ const TABLE_DATA = [
         questionary: 'Фронт',
         email: 'dasda@mail.ru',
         date: '2022-05-10 09:47:59',
-        status: 'PENDING'
+        status: 'OPEN'
     }
 ];
 

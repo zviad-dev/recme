@@ -1,17 +1,10 @@
 import styled from 'styled-components';
-<<<<<<< HEAD
 import TodoForm from './TodoForm';
-=======
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
 
 function CreateQuestionary() {
     return (
         <Container>
-<<<<<<< HEAD
             <TodoForm />
-=======
-            CreateQuestionaryvsdvs ssssssssssssssssssssssssssss
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
         </Container>
     );
 }

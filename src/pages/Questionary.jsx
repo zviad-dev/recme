@@ -7,11 +7,7 @@ import { Button, ButtonsKind } from '../components/common/Button';
 import CreateQuestionary from '../components/application/CreateQuestionary';
 
 function Questionary() {
-<<<<<<< HEAD
     const [showForm, setShowForm] = useState(false);
-=======
-    const [showForm, setShowForm] = useState();
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
 
     return (
         <>
@@ -28,23 +24,14 @@ function Questionary() {
                     <Button
                         kind={ButtonsKind.tertiary}
                         to=""
-<<<<<<< HEAD
                         onClick={() => setShowForm(true)}
-=======
-                        onClick={() => setShowForm(!showForm)}
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
                         showForm={showForm}
                     >
                         Создать новую анкету
                     </Button>
                 </Form>
             </Container>
-<<<<<<< HEAD
             {showForm ? <CreateQuestionary /> : <Table />}
-=======
-            {showForm && <CreateQuestionary />}
-            {!showForm && <Table />}
->>>>>>> 409aae8a13178cbda1ecf2b019bc49ea6ad7462e
         </>
     );
 }
