@@ -90,7 +90,7 @@ function HeroSection() {
                     CRM&nbsp;-&nbsp;системы CHECKLY
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button kind={ButtonsKind.secondary} to="/signin">
+                    <Button kind={ButtonsKind.secondary} to="/recme/signin">
                         Войти
                     </Button>
                 </HeroBtnWrapper>

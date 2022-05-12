@@ -94,7 +94,7 @@ function Sidebar({ isOpen, toggle }) {
                     ))}
                 </SidebarMenu>
                 <ButtonWrap>
-                    <Button kind={ButtonsKind.secondary} to="/signin">
+                    <Button kind={ButtonsKind.secondary} to="/recme/signin">
                         Войти
                     </Button>
                 </ButtonWrap>

@@ -11,12 +11,12 @@ import Profile from '../../assets/profile.jpg';
 
 const SIDEBAR_LINKS = [
     {
-        name: '/home',
+        name: '/recme/home',
         trl: 'Главная',
         icon: Grid
     },
-    { name: '/questionary', trl: 'Анкеты', icon: Questionary },
-    { name: '/recommendation', trl: 'Рекомендации', icon: Recommendation }
+    { name: '/recme/questionary', trl: 'Анкеты', icon: Questionary },
+    { name: '/recme/recommendation', trl: 'Рекомендации', icon: Recommendation }
 ];
 
 function Sidebar() {

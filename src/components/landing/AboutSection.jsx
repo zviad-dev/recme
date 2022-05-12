@@ -24,7 +24,7 @@ function AboutSection() {
                                 проверить
                             </Subtitle>
                             <ButtonWrap>
-                                <Button kind={ButtonsKind.primary} to="/signin">
+                                <Button kind={ButtonsKind.primary} to="/recme/signin">
                                     Начать
                                 </Button>
                             </ButtonWrap>

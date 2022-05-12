@@ -60,7 +60,7 @@ function Footer() {
             <FooterWrapp>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/" onClick={toggleHome}>
+                        <SocialLogo to="/recme" onClick={toggleHome}>
                             checkly
                         </SocialLogo>
                         <WebsiteRights>

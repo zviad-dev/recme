@@ -125,7 +125,7 @@ function SigninElement() {
     return (
         <Container>
             <FormWrap>
-                <Icon to="/">CHECKLY</Icon>
+                <Icon to="/recme">CHECKLY</Icon>
                 <FormContent>
                     <Form onSubmit={handleSubmit}>
                         <Form1>Войти в ваш кабинет</Form1>

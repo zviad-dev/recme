@@ -124,7 +124,7 @@ function Navbar({ toggle }) {
     return (
         <Nav scrrolNav={scrrolNav}>
             <NavbarContainer>
-                <NavLogo to="/" onClick={toggleHome}>
+                <NavLogo to="/recme" onClick={toggleHome}>
                     CHECKLY
                 </NavLogo>
                 <MobileIcon onClick={toggle}>
@@ -145,7 +145,7 @@ function Navbar({ toggle }) {
                     ))}
                 </NavMenu>
                 <ButtonWrap>
-                    <Button kind={ButtonsKind.secondary} to="/signin">
+                    <Button kind={ButtonsKind.secondary} to="/recme/signin">
                         Войти
                     </Button>
                 </ButtonWrap>
