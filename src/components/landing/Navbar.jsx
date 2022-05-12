@@ -145,7 +145,7 @@ function Navbar({ toggle }) {
                     ))}
                 </NavMenu>
                 <ButtonWrap>
-                    <Button kind={ButtonsKind.secondary} to="/recme/signin">
+                    <Button kind={ButtonsKind.secondary} to="/recme/home">
                         Войти
                     </Button>
                 </ButtonWrap>
