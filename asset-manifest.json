@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/zviad-dev/recme/static/css/main.88975cc2.css",
+    "main.js": "/zviad-dev/recme/static/js/main.fd2e3874.js",
+    "static/media/video.mp4": "/zviad-dev/recme/static/media/video.41cab17992ea17b006f5.mp4",
+    "static/media/Icon3.svg": "/zviad-dev/recme/static/media/Icon3.c5a374e4079b0f72b0305d3b1ae3b51e.svg",
+    "static/media/profile.jpg": "/zviad-dev/recme/static/media/profile.a973769aba7313c33e34.jpg",
+    "static/media/Icon1.svg": "/zviad-dev/recme/static/media/Icon1.82f4ae2ede17d412c8e54745ea47e70e.svg",
+    "static/media/Rec.svg": "/zviad-dev/recme/static/media/Rec.68e893155b3c222ca3e19ab340b9998d.svg",
+    "static/media/Team.svg": "/zviad-dev/recme/static/media/Team.7828780b35c03e3fde31b362779c0528.svg",
+    "static/media/Icon2.svg": "/zviad-dev/recme/static/media/Icon2.ba112f1bf270d90420dc11d4cf4485ad.svg",
+    "static/media/AVTR.svg": "/zviad-dev/recme/static/media/AVTR.e056f944aa48d4bd278ff71a4986318e.svg",
+    "static/media/logo.svg": "/zviad-dev/recme/static/media/logo.3b719ac14957e27730f338af48691618.svg",
+    "static/media/questionary.svg": "/zviad-dev/recme/static/media/questionary.8db72ed6545df8c43f8eba565b42296d.svg",
+    "index.html": "/zviad-dev/recme/index.html",
+    "static/media/grid.svg": "/zviad-dev/recme/static/media/grid.8588f41dbe673d49f323a60e46d0872d.svg",
+    "static/media/recommendation.svg": "/zviad-dev/recme/static/media/recommendation.d766f6b9b30b27409d057a5e6eb60c22.svg",
+    "static/media/support.svg": "/zviad-dev/recme/static/media/support.0a3eb815667fcbc87b31f192950919a9.svg",
+    "static/media/menu.svg": "/zviad-dev/recme/static/media/menu.c0e97d53538d8849459b16bc8b29d164.svg",
+    "main.88975cc2.css.map": "/zviad-dev/recme/static/css/main.88975cc2.css.map",
+    "main.fd2e3874.js.map": "/zviad-dev/recme/static/js/main.fd2e3874.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88975cc2.css",
+    "static/js/main.fd2e3874.js"
+  ]
+}
