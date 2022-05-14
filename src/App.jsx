@@ -27,14 +27,18 @@ function App() {
                         element={<Landing />}
                         exact
                     />
-                    <Route path="/recme/signin" element={<Signin />} exact />
+                    <Route path="/recme" element={<Signin />} exact />
                     <Route path="/recme/home" element={<Home />} exact />
                     <Route
                         path="/recme/questionary"
                         element={<Questionary />}
                         exact
                     />
-                    <Route path="/recme" element={<Recommendation />} exact />
+                    <Route
+                        path="/recme/signin"
+                        element={<Recommendation />}
+                        exact
+                    />
                 </Routes>
             </ThemeProvider>
         </Router>
