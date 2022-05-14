@@ -22,14 +22,14 @@ function App() {
             <ThemeProvider theme={Theme}>
                 <Global />
                 <Routes>
-                    <Route path="/recme" element={<Landing />} exact />
-                    <Route path="/recme/signin" element={<Signin />} exact />
-                    <Route path="/recme/home" element={<Home />} exact />
                     <Route
                         path="/recme/questionary"
-                        element={<Questionary />}
+                        element={<Landing />}
                         exact
                     />
+                    <Route path="/recme/signin" element={<Signin />} exact />
+                    <Route path="/recme/home" element={<Home />} exact />
+                    <Route path="/recme" element={<Questionary />} exact />
                     <Route
                         path="/recme/recommendation"
                         element={<Recommendation />}
